@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <script src="main.js"></script>
+     <h1>Hotel Management System </h1>
+     <h1>Welcome by Maiarunkumar </h1>
+    <div class="navbar">
+        <Ul class="nav-bar">
+            <li class="nav-items">
+                <a href="#Home" class="Home">Home</a>
+            </li>
+            <li class="Order_Booking">
+                <a href="#Order_Booking" class="Order_Booking">Booking</a>
+            </li>
+            <li class="nav-items">
+                <a href="#Order_Details" class="order_Details">Details</a>
+            </li>
+            <li class="nav-items" >
+                <a href="#Contact" class="contact">Contact</a>
+            </li>
+        </Ul>
+    </div>
+     <section id="Home">
+        <img src="image/de-java-hotel.jpg" width="1500px" height="350px">
+     </section>
+     <section id="Order_Booking">
+        <h1 style="text-align: center;">Order Booking</h1>
+        <form id="add-customer-form">
+          <input type="text" id="customer-name" placeholder="Customer Name" required>
+          <input type="number" id="room-number" placeholder="Room Number" required>
+          <input type="date" id="check-in-date" placeholder="Check-In Date" required>
+          <input type="date" id="check-out-date" placeholder="Check-Out Date" required>
+          <input type="text" id="order-details" placeholder="Order Details" required>
+          <td><button type="submit">Add Customer</button></td>
+        </form>
+     </section>
+     <section id="Order_Details">
+        <h1 style="text-align: center;">Order Details</h1>
+        <table id="customer-list">
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>101</td>
+              <td>2023-03-25</td>
+              <td>2023-03-26</td>
+              <td>1x Breakfast, 1x Lunch, 1x Dinner</td>
+              <td><button onclick="deleteCustomer(this)">Delete</button></td>
+            </tr>
+            <tr>
+              <td>Jane Doe</td>
+              <td>102</td>
+              <td>2023-03-25</td>
+              <td>2023-03-26</td>
+              <td>2x Breakfast, 2x Lunch, 2x Dinner</td>
+              <td><button onclick="deleteCustomer(this)">Delete</button></td>
+            </tr>
+          </tbody>
+              <tr>
+                <td>Kumar</td>
+                <td>102</td>
+                <td>2024-03-25</td>
+                <td>2024-03-26</td>
+                <td>2x Breakfast, 2x Lunch, 2x Dinner</td>
+                <td><button onclick="deleteCustomer(this)">Delete</button></td>
+              </tr>
+              <tr>
+                <td>Smith</td>
+                <td>103</td>
+                <td>2024-03-25</td>
+                <td>2024-03-26</td>
+                <td>1x Breakfast, 1x Lunch, 1x Dinner</td>
+                <td><button onclick="deleteCustomer(this)">Delete</button></td>
+              </tr>
+              <tr>
+                <td>david</td>
+                <td>104</td>
+                <td>2024-03-25</td>
+                <td>2024-03-26</td>
+                <td>2x Breakfast, 3x Lunch, 1x Dinner</td>
+                <td><button onclick="deleteCustomer(this)">Delete</button></td>
+              </tr>
+            </tbody>
+          </table>
+          
+     </section>
+     <section id="Contact">
+        <h1 style="text-align: center;">Contact</h1>
+        <h4 style="text-align: center;">Mobile No:+91-9876543210</h4>
+        <h4 style="text-align: center;">mail:hotel@gmail.com</h4>
+        <h5 style="text-align: center;">@ rights reserved by maiarunkumar</h5>
+     </section>
+    
+     
+</body>
+</html>

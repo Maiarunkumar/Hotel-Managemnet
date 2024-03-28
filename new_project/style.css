@@ -1,0 +1,135 @@
+ul{
+    border: 0px;
+    padding: 0px;
+    list-style-type:none;
+    overflow: hidden;
+    background-color: black;
+    position: -webkit-sticky;
+    position: sticky;
+}
+li{
+    display: inline;
+    float: left;
+
+}
+li a{
+    padding: 5px;
+    display: block;
+    background-color:black;
+    color: white;
+    padding: 12px 12px;
+    text-align: center;
+}
+
+li a:hover{
+    background-color: violet;
+}
+.active{
+   
+    background-color: violet;
+}
+.img{
+    height: 350px;
+    width: 1000px;
+}
+#Home,
+#Order_Booking,
+
+#Contact{
+    height: 400px;
+}
+#Home{
+    background-image: linear-gradient(from right,blue,violet);
+}
+#Order_Booking{
+    background-color:lightgray;
+
+}
+#Order_Details h1{
+   padding:0;
+}
+#Order_Details{
+    height: 350px;
+    padding-top: 50px;
+    background-color:lightgray;
+}
+#Contact{
+    padding-top: 50px;
+    color: white;
+    background-color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding-top: 20px;
+    padding: 10px;
+  }
+  
+  th {
+    background-color: #ccc;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  button {
+    padding: 8px;
+    margin-right: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
